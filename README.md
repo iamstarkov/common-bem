@@ -13,10 +13,11 @@
 
 ## Usage
 
-By common scheme I mean scheme with double underscores and hyphens proposed by Harry Roberts in his article ["MindBEMding – getting your head ’round BEM syntax"][mindbemding].
+By common scheme I mean scheme with double underscores and hyphens proposed by Harry Roberts in his article ["MindBEMding – getting your head ’round BEM syntax"][mindbemding]. You can read more about BEM on [getbem.com][getbem].
 
 [mindbemding]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 [b_]: https://npmjs.org/package/b_
+[getbem]: http://getbem.com/
 
 ```js
 import commonBem from 'common-bem';
