@@ -1,0 +1,44 @@
+{
+  "name": "common-bem",
+  "version": "0.0.0",
+  "description": "BEM class name generator which use common scheme. Elements are delimited with two (2) underscores (__), and Modifiers are delimited by two (2) hyphens (--).",
+  "main": "index.es5.js",
+  "scripts": {
+    "coverage": "isparta cover _mocha index.js -- --require babel/register",
+    "precoveralls": "npm run coverage",
+    "coveralls": "coveralls < coverage/lcov.info",
+    "test": "mocha --require babel/register",
+    "tdd": "npm test -- --watch",
+    "transpile": "babel index.js > index.es5.js",
+    "prepublish": "npm run transpile",
+    "postpublish": "rm *.es5.js && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamstarkov/common-bem.git"
+  },
+  "keywords": [
+    "bem",
+    "generator",
+    "className",
+    "naming",
+    "class",
+    "css"
+  ],
+  "author": "Vladimir Starkov <vladimir.starkov@nordnet.se> (https://iamstarkov.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamstarkov/common-bem/issues"
+  },
+  "homepage": "https://github.com/iamstarkov/common-bem#readme",
+  "devDependencies": {
+    "assert": "*",
+    "babel": "*",
+    "coveralls": "*",
+    "isparta": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "b_": "^1.3.2"
+  }
+}
