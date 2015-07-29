@@ -25,7 +25,7 @@ const bem = commonBem.lock('grid');
 bem();      // grid
 bem('row'); // grid__row
 bem('col'); // grid__col
-bem({ fixed: true }); // grid grid--fixed
+bem({ fixed: true });       // grid grid--fixed
 bem('col', { size: 'md' }); // grid__col grid__col--size-md
 ```
 
