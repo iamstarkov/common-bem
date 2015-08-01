@@ -32,7 +32,7 @@ bem('col', { size: 'md' }); // grid__col grid__col--size-md
 
 ## API
 
-Basically, this package is [b_](b_) with predefined options for this scheme.
+Basically, this package is [b_][b_] with predefined options for this scheme.
 
 ## License
 
