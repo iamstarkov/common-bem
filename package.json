@@ -1,6 +1,6 @@
 {
   "name": "common-bem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BEM class name generator which use common scheme. Elements are delimited with two (2) underscores (__), and Modifiers are delimited by two (2) hyphens (--).",
   "main": "index.es5.js",
   "scripts": {
